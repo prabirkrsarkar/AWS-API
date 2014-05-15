@@ -1,9 +1,9 @@
 #!/usr/local/bin/python3
 
-# We are uploading a file object to the S3 bucket named redshift_emr_lex with   # PUT REST API call.
+# We are uploading a file object to the S3 bucket named redshift_emr_lex with PUT REST API call.
 # Hashed Message Auth is as defined by Amazon API documentation.
 # Note that message encoding in UTF-8 is a strict requirement.
-# Works with Python 2.x. HMAC module in python 3.x expects byte array and this  # hmac syntax won't work.
+# Works with Python 2.x. HMAC module in python 3.x expects byte array and this hmac syntax won't work.
 # Author: prasarkar@lexmark.com
 
 import requests
