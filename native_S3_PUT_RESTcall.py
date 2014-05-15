@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/local/bin/python2
 
 # We are uploading a file object to the S3 bucket named redshift_emr_lex with PUT REST API call.
 # Hashed Message Auth is as defined by Amazon API documentation.
